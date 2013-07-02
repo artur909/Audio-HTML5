@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charet="utf-8"/>
+	<title>Audio HTML5</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.boton').mouseover(function(){
+				$('audio')[0].play();
+			});
+		});
+	</script>
+</head>
+<body>
+<ul>
+	<li><a href="#" class="boton">Boton</a></li>
+</ul>
+<audio src="https://dl.dropboxusercontent.com/s/a1brkxkf42desec/button-16.mp3" preload>
+</audio>
+</body>
+</html>
